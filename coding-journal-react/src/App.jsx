@@ -21,23 +21,24 @@ const App = () => {
           <section className="projects-section">
             <h2 className="section-title">Featured Projects</h2>
 
-            {projects.map((project) => {
-              return (
-                <article key={project.id} className="project-card">
-                  <img
-                    className="project-image"
-                    src={project.image}
-                    alt={project.name}
-                  />
-
-                  <div className="project-content">
-                    <p className="project-category">{project.category}</p>
-                    <h3 className="project-name">{project.name}</h3>
-                    <p className="project-summary">{project.summary}</p>
-                  </div>
-                </article>
-              );
-            })}
+            <div className="projects-grid">
+              {projects.map((project) => {
+                return (
+                  <article key={project.id} className="project-card">
+                    <img
+                      className="project-image"
+                      src={project.image}
+                      alt={project.name}
+                    />
+                    <div className="project-content">
+                      <p className="project-category">{project.category}</p>
+                      <h3 className="project-name">{project.name}</h3>
+                      <p className="project-summary">{project.summary}</p>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
           </section>
         </div>
       </main>
