@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     name: 'Frontend Portfolio',
     category: 'Portfolio',
-    stack: ['HTML', 'CSS', 'JavaScript', 'React'],
+    stack: ['HTML', 'CSS', 'JavaScript'],
     summary:
       'Personal front-end portfolio showcasing responsive projects and modern UI design.',
     date: '2026',
