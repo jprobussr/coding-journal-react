@@ -30,10 +30,40 @@ const App = () => {
                       src={project.image}
                       alt={project.name}
                     />
+
                     <div className="project-content">
-                      <p className="project-category">{project.category}</p>
+                      <div className="project-top-row">
+                        <p className="project-category">{project.category}</p>
+                        <span className="project-status">{project.status}</span>
+                      </div>
+
                       <h3 className="project-name">{project.name}</h3>
                       <p className="project-summary">{project.summary}</p>
+
+                      <p className="project-meta">
+                        <span>Date Built: {project.date}</span>
+                      </p>
+
+                      <ul className="stack-list">
+                        {project.stack.map((item) => {
+                          return (
+                            <li className="stack-tag" key={item}>
+                              {item}
+                            </li>
+                          );
+                        })}
+                      </ul>
+
+                      <div className="projects-links">
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noreferrer"
+                          className='project-link'
+                        >
+                          GitHub
+                        </a>
+                      </div>
                     </div>
                   </article>
                 );
