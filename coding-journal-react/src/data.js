@@ -23,7 +23,6 @@ export const projects = [
     status: 'Completed',
     image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
     github: 'https://github.com/jprobussr/food-ordering-ui',
-    liveUrl: '#',
   },
   {
     id: 3,
@@ -36,7 +35,6 @@ export const projects = [
     status: 'Completed',
     image: 'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c',
     github: 'https://github.com/jprobussr/movie-watchlist-omdb',
-    liveUrl: '#',
   },
   {
     id: 4,
@@ -49,6 +47,5 @@ export const projects = [
     status: 'Completed',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
     github: 'https://github.com/jprobussr/dashboard-app',
-    liveUrl: '#',
   },
 ];
