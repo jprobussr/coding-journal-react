@@ -60,7 +60,7 @@ const App = () => {
                             href={project.github}
                             target="_blank"
                             rel="noreferrer"
-                            className="project-link"
+                            className="project-link project-link-secondary"
                           >
                             GitHub
                           </a>
