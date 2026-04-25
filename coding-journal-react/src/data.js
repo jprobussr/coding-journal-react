@@ -9,8 +9,8 @@ export const projects = [
     date: '2026',
     status: 'Completed',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/jprobussr/frontend-portfolio',
+    liveUrl: 'https://jprobussr.github.io/frontend-portfolio/',
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ export const projects = [
     date: '2026',
     status: 'Completed',
     image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/jprobussr/food-ordering-ui',
+    liveUrl: '#',
   },
   {
     id: 3,
@@ -35,8 +35,8 @@ export const projects = [
     date: '2026',
     status: 'Completed',
     image: 'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/jprobussr/movie-watchlist-omdb',
+    liveUrl: '#',
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export const projects = [
     date: '2026',
     status: 'Completed',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/jprobussr/dashboard-app',
+    liveUrl: '#',
   },
 ];

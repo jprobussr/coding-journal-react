@@ -55,14 +55,27 @@ const App = () => {
                       </ul>
 
                       <div className="projects-links">
-                        <a
-                          href={project.github}
-                          target="_blank"
-                          rel="noreferrer"
-                          className='project-link'
-                        >
-                          GitHub
-                        </a>
+                        {project.github && (
+                          <a
+                            href={project.github}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="project-link"
+                          >
+                            GitHub
+                          </a>
+                        )}
+
+                        {project.liveUrl && (
+                          <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="project-link"
+                          >
+                            Live Demo
+                          </a>
+                        )}
                       </div>
                     </div>
                   </article>
